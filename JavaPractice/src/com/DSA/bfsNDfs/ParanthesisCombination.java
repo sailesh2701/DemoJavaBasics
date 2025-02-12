@@ -31,7 +31,7 @@ public class ParanthesisCombination {
 			current.append(')');
 			System.out.println("Before close++ " + close + " current " + current);
 			generate(open, close + 1, n, ans, current);
-			System.out.println("Before close++ " + close + " current " + current);
+			System.out.println("After close++ " + close + " current " + current);
 			current.deleteCharAt(current.length() - 1);
 			System.out.println("delete close++ " + close + " current " + current);
 		}
