@@ -6,7 +6,7 @@ import java.util.Map;
 public class ContinousSubArrayCount {
 	public static void main(String args[]) {
 		ContinousSubArrayCount c = new ContinousSubArrayCount();
-		System.out.println(c.subarraySum(new int[] { 1, 2, 3, 4 }, 2));
+		System.out.println(c.subarraySum(new int[] { 1, 2, 3, 4 }, 3));
 	}
 
 	public int subarraySum(int[] nums, int k) {

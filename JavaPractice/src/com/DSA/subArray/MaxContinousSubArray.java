@@ -8,6 +8,7 @@ public class MaxContinousSubArray {
 
 	}
 
+	// method 2
 	public static int maxSubArrayMethod2(int[] nums) {
 		int l = nums.length;
 		if (l == 0)
