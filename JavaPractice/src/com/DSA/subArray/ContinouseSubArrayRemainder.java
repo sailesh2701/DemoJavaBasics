@@ -6,6 +6,9 @@ import java.util.Map;
 public class ContinouseSubArrayRemainder {
 
 	public static void main(String[] args) {
+		// minimum length is 2
+		// and sum of subArray elements needs to be multiple of k
+		// 0 also consider as it is multiple of all elements.
 		System.out.println(checkSubarraySum(new int[] { 23, 2, 4, 6, 7 }, 6));// 5 - -
 		System.out.println(checkSubarraySum(new int[] { 23, 2, 4, 6, 6 }, 7));
 		System.out.println(checkSubarraySum(new int[] { 5, 0, 0, 0 }, 3));

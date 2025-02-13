@@ -1,6 +1,6 @@
 package com.DSA.subArray;
 
-public class MaxContinousSubArray {
+public class MaxContinousSumSubArray {
 	public static void main(String args[]) {
 //		MaxContinousSubArray m = new MaxContinousSubArray();
 		System.out.println(maxSubArrayMethod1(new int[] { 1, 2, -1, -2 }));
