@@ -1,10 +1,10 @@
 package com.DSA.subArray;
 
-public class MaxContinousSumSubArray {
+public class MaxContinousSumSubArrayCount {
 	public static void main(String args[]) {
 //		MaxContinousSubArray m = new MaxContinousSubArray();
-		System.out.println(maxSubArrayMethod1(new int[] { 1, 2, -1, -2 }));
-		System.out.println(maxSubArrayMethod2(new int[] { 1, 2, -1, -2 }));
+		System.out.println(maxSubArrayMethod1(new int[] { 1, 3, -4, 2, 3 }));
+		System.out.println(maxSubArrayMethod2(new int[] { 1, 3, -1, 2, 3 }));
 
 	}
 
@@ -13,7 +13,8 @@ public class MaxContinousSumSubArray {
 		int l = nums.length;
 		if (l == 0)
 			return 0;
-
+		// if (currentSum+nums[i]) < nums[i] which says there currentSum has -ve
+		// which is decreasing the value of nums[i]
 		int sum = nums[0];
 		int currentSum = nums[0];
 
