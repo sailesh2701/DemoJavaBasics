@@ -1,4 +1,4 @@
-package com.DSA.subArray;
+package com.DSA.Dp;
 
 public class RobberyHouse {
 
