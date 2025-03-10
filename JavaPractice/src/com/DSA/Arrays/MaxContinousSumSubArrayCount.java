@@ -1,4 +1,4 @@
-package com.DSA.subArray;
+package com.DSA.Arrays;
 
 public class MaxContinousSumSubArrayCount {
 	public static void main(String args[]) {

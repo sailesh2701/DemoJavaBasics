@@ -1,4 +1,4 @@
-package com.DSA.subArray;
+package com.DSA.Arrays;
 
 import java.util.HashSet;
 import java.util.Set;
